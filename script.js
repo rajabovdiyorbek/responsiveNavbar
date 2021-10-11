@@ -1,0 +1,16 @@
+function slide(){
+    const burger = document.querySelector('.burger');
+    const nav = document.querySelector('.nav__links');
+    const navLinks = document.querySelectorAll('nav__links li')
+   
+    burger.addEventListener('click', ()=>{
+         //Toggle Nav
+        nav.classList.toggle('nav-active');
+        //Burger Animation
+        burger.classList.toggle('toggle')
+    });
+        
+    
+}
+
+slide();
